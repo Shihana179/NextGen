@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    color: #BAABAB;
+}
+.header{
+    display: block;
+    width: auto;
+    height: 50%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+.logoimg{ 
+    display: block;
+    width: 300px;
+    margin: 2% auto 2% auto;
+    height: 30%;
+}
+/* 
+.bgblack{
+    display:absolute;
+    background-color:#000; 
+     margin:0 25% 0 25%; 
+     padding-top: 5%;
+     width:50%;
+} */
+.form{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    right: 0px;
+    left:0;
+    margin: auto;
+    padding: 2%;
+  
+}
+
+.container{
+    width: 60%;
+    height: auto;
+    padding: 2%; 
+    background-color:rgb(30, 34, 80);
+    overflow: hidden;
+
+}
+.row{
+    margin-top: 2%;
+}
+button{
+    color: #8A9AB1;
+    background-color: #C7CFDA;
+    margin-top:2%;
+    padding:2px 10px 2px 10px;
+    border-radius:5px;
+    box-shadow: none;
+    margin-left:40%;
+}
+
+#digital_signature{
+    font-family: 'Rouge Script', cursive;
+}
+
+
+button:hover {
+    border-color: #82B541;
+    background-color: #82B541;
+    box-shadow: none;
+    color: #5c7292;
+  }
+
+p{
+    margin-top: 2%;
+}
+
+select option[selected] {
+    background: white;
+}
+textarea,select,input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #BAABAB;
+    width: 100%;
+  
+  }
+  input:focus,input:hover,select:focus,textarea:focus,select:hover,textarea:hover {
+    border-color: #82B541;
+
+  }
+
+  
